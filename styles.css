@@ -61,3 +61,18 @@ body {
     background-color: red;  /* Added to ensure visibility */
     border-radius: 50%;
 }
+
+#cigarette-item {
+    position: absolute;
+    top: 0;
+    left: 200px; /* starting position — adjust later */
+    width: 200px;  /* you can change this */
+    height: 200px; /* you can change this */
+    pointer-events: none;
+}
+
+#cigarette-item img {
+    width: 100%;
+    height: 100%;
+}
+
