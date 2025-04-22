@@ -1,0 +1,47 @@
+/* style.css */
+
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* The game area */
+#game {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #282828;
+}
+
+/* Score display */
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+/* The player */
+#player {
+    position: absolute;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;  /* Added to ensure visibility */
+    border-radius: 50%;
+}
+
+/* The falling item */
+#falling-item {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-color: red;  /* Added to ensure visibility */
+    border-radius: 50%;
+}
