@@ -32,8 +32,24 @@ body {
     bottom: 50px;
     width: 50px;
     height: 50px;
-    background-color: blue;  /* Added to ensure visibility */
+    background-color: rgba(0, 0, 255, 0);  /* Added to ensure visibility */
     border-radius: 50%;
+}
+
+#player {
+    position: absolute;
+    bottom: 0;
+    width: 100px;  /* Adjust based on the width of your image */
+    height: 100px; /* Adjust based on the height of your image */
+}
+
+#player-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);  /* Center horizontally */
+    bottom: 0;  /* Keep it at the bottom of the screen */
+    width: 200px;  /* Increase size here */
+    height: auto;  /* Keep aspect ratio */
 }
 
 /* The falling item */
